@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>The Space Station I Resort</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	<body>
 		
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
@@ -20,9 +22,9 @@
 		
 		<!--HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>The Space Station</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Space Station</span>
 				</div>
 			</div>
 		</div>
@@ -30,135 +32,136 @@
 		<!-- GALLERY -->
 		<section>
 			<div id="gallery">
-				<h1>Gallery</h1>
-				<div>
+				<div class="container">
+					<h1>Gallery</h1>
+					<div class="flex-container">
 				
-					<!--PHOTO CONTAINTER 1-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_1.jpg" alt="astronauts in zero gravity on the space station">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 1-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_1.jpg" alt="astronauts in zero gravity on the space station">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 1-->
+						<!-- END PHOTO-CONTAINER 1-->
 					
-					<!--PHOTO CONTAINTER 2-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_2.jpg" alt="the space station">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 2-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_2.jpg" alt="the space station">
+								<div>
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 2-->
+						<!-- END PHOTO-CONTAINER 2-->
 					
-					<!--PHOTO CONTAINTER 3-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_3.jpg" alt="schematics for a new space station">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 3-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_3.jpg" alt="schematics for a new space station">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 3-->
+						<!-- END PHOTO-CONTAINER 3-->
 					
-					<!--PHOTO CONTAINTER 4-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_4.jfif" alt="space station interior">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 4-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_4.jfif" alt="space station interior">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 4-->
+						<!-- END PHOTO-CONTAINER 4-->
 					
-					<!--PHOTO CONTAINTER 5-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_5.jfif" alt="partial space station">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 5-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_5.jfif" alt="partial space station">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 5-->
+						<!-- END PHOTO-CONTAINER 5-->
 					
-					<!--PHOTO CONTAINTER 6-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_6.jfif" alt="view of earth from space station window">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 6-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_6.jfif" alt="view of earth from space station window">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 6-->
+						<!-- END PHOTO-CONTAINER 6-->
 					
-					<!--PHOTO CONTAINTER 7-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_7.jfif" alt="launching rocket">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 7-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_7.jfif" alt="launching rocket">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 7-->
+						<!-- END PHOTO-CONTAINER 7-->
 					
-					<!--PHOTO CONTAINTER 8-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_8.jfif" alt="highly phallic billionaire rockets">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 8-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_8.jfif" alt="highly phallic billionaire rockets">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 8-->
+						<!-- END PHOTO-CONTAINER 8-->
 					
-					<!--PHOTO CONTAINTER 9-->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_9.jfif" alt="SpaceX Launch Site">
-							<div>
-								<h1>Click to Enlarge</h1>
-								<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+						<!--PHOTO CONTAINTER 9-->
+						<div class="photo-container">
+							<div class="photo">
+								<img src="./images/thumb/thumbnail_9.jfif" alt="SpaceX Launch Site">
+								<div class="photo-overlay">
+									<h1>Click to Enlarge</h1>
+									<p>Commercial spacecraft is an abomination of pollution. Your favorite billionaire contributes nothing to the world and takes everything.</p>
+								</div>
 							</div>
 						</div>
+						<!-- END PHOTO-CONTAINER 9-->
 					</div>
-					<!-- END PHOTO-CONTAINER 9-->
-					
 				</div>
 			</div>
 		</section>
 		<!-- END GALLERY -->
 		
-		<!--RSVF-->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
+		<!--RSVP-->
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
 						<h2><span>Elon Musk is Fake.</span>
 							<br />You will never be able to afford commercial space flight, nor is it an enjoyable experience.
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide information here so we can spam your email with ads.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
@@ -167,7 +170,7 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -176,11 +179,11 @@
 				</div>
 			</div>
 		</section>
-		<!--END RSVF-->
+		<!--END RSVP-->
 		
 		<!--FOOTER-->
 		<div>
-			www.thespacestation.space
+			www.thespacestation.com &nbsp;|&nbsp; &copy; 2023
 		</div>
 		<!--END FOOTER-->
 		
